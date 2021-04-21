@@ -26,8 +26,7 @@ public class Order {
 	//Na tabela tb_order, client_id (fk)
 	@ManyToOne
 	@JoinColumn(name = "client_id")
-	private Client cliente;
-	
+	private Client client;
 	
 	@OneToMany(mappedBy = "order")
 	private List<OrderItem> items = new ArrayList<>();
@@ -40,7 +39,7 @@ public class Order {
 		this.id = id;
 		this.moment = moment;
 		this.status = status;
-		this.cliente = cliente;	
+		this.client = cliente;	
 	}
 
 	public Long getId() {
@@ -68,11 +67,11 @@ public class Order {
 	}
 
 	public Client getCliente() {
-		return cliente;
+		return client;
 	}
 
 	public void setCliente(Client cliente) {
-		this.cliente = cliente;
+		this.client = cliente;
 	}
 
 	public List<OrderItem> getItems() {
