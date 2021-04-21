@@ -11,7 +11,7 @@ import javax.persistence.Table;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 
 @Entity
-@Table(name = "tb_oderItem")
+@Table(name = "tb_orderItem")
 public class OrderItem {
 
 	@Id
@@ -79,8 +79,7 @@ public class OrderItem {
 	public void setOrder(Order order) {
 		this.order = order;
 	}
-	
-	
+		
 	public Double getSubTotal() {		
 		return quantity * price;		
 	}
