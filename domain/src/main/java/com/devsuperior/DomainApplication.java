@@ -42,7 +42,7 @@ public class DomainApplication implements CommandLineRunner {
 	@Override
 	public void run(String... args) throws Exception {
 
-		Client c1 = new Client(null, "Alex Master", "master@programe.com");
+		Client c1 = new Client(null, "Alex Master", "master@master.com.br");
 		clientRepository.save(c1);
 
 		Product p1 = new Product(null, "TV", 1000.0);
