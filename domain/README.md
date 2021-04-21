@@ -1,4 +1,4 @@
-## API REST - Geração de Pedido
+## API REST - Geração de Pedidos
 
 ## DER
 
