@@ -2,6 +2,7 @@
 
 ## DER
 
+![DER](https://user-images.githubusercontent.com/22798725/115481039-16cc2f00-a222-11eb-9e52-08c1d00edb5c.png)
 
 ## Descrição
 # Projeto desenvolvido utilizando Spring Boot
