@@ -4,6 +4,9 @@
 
 ![DER](https://user-images.githubusercontent.com/22798725/115481039-16cc2f00-a222-11eb-9e52-08c1d00edb5c.png)
 
+## DB
+![DB](https://user-images.githubusercontent.com/22798725/115573258-f8ece180-a296-11eb-93e0-284674e367fc.png)
+
 ## Descrição
 # Projeto desenvolvido utilizando Spring Boot
 - Banco de Dados H2
