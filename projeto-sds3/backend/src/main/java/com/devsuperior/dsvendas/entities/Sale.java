@@ -23,9 +23,9 @@ public class Sale {
 	private LocalDate date;
 
 	// Composicao da minha entidade
-	// Chave estrangeiro
+	// Chave estrangeira
 	@ManyToOne
-	@JoinColumn(name="seller_id")
+	@JoinColumn(name="seller_id")	
 	private Seller seller;
 
 	public Sale() {
@@ -88,5 +88,5 @@ public class Sale {
 	public void setSeller(Seller seller) {
 		this.seller = seller;
 	}
-	
+
 }
